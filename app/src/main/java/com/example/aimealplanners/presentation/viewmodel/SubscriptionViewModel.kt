@@ -23,7 +23,9 @@ sealed class SubscriptionUiState {
 @HiltViewModel
 class SubscriptionViewModel @Inject constructor(
     private val getProductsUseCase: GetProductsUseCase,
+
     private val purchaseSubscriptionUseCase: PurchaseSubscriptionUseCase,
+
     private val getSubscriptionStatusUseCase: GetSubscriptionStatusUseCase
 ) : BaseViewModel() {
 
