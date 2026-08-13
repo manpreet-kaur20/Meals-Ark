@@ -1,13 +1,13 @@
-# 🍽️ Meals-Ark — AI Meal Planner
+# 🍽️ Meal Arks — AI Meal Planner
 
-**Meals-Ark** is a modern, premium Android application built with **Kotlin** and **Jetpack Compose**. It serves as an AI-powered meal planner, nutrition tracker, food scanner, and smart grocery assistant — featuring a highly interactive user interface built with **Material Design 3** and **Clean Architecture**.
+**Meal Arks** is a modern, premium Android application built with **Kotlin** and **Jetpack Compose**. It serves as an AI-powered meal planner, nutrition tracker, food scanner, and smart grocery assistant — featuring a highly interactive user interface built with **Material Design 3** and **Clean Architecture**.
 
 > _⛵ Eat Smart, Live Well._
 
 ---
 
 <p align="center">
-  <img src="app/src/main/res/drawable/meal_ark_gif.gif" width="280" alt="Meal Arks App Showcase">
+  <img src="./app/src/main/res/drawable/meal_ark_gif.gif" width="280" alt="Meal Arks App Showcase">
 </p>
 
 ## 📱 Features & Core Screens
@@ -304,9 +304,9 @@ All fields on Login, Sign Up, and Password forms have strict validations:
 
 | Table            | Key Columns                                                                 |
 |------------------|-----------------------------------------------------------------------------|
-| `meal_plans`     | id, date, mealType, dishName, calories, prepTime, notes, createdAt         |
-| `dishes`         | id, name, category, calories, prepTime, cuisine, ingredients, imageUrl, isFavorite |
-| `shopping_items` | id, name, quantity, unit, category, isChecked, mealPlanId                  |
+| `meal_plans`     | date (PK), breakfastDishId, lunchDishId, dinnerDishId                       |
+| `dishes`         | id (PK), name, category, memo, url, photoUri                                |
+| `shopping_items` | id (PK), name, isChecked, order                                             |
 
 All queries return **Kotlin Flow** for reactive, real-time UI updates. Custom `Converters` handle complex type serialization (lists of strings, `LocalDate`).
 
