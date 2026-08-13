@@ -6,6 +6,10 @@
 
 ---
 
+<p align="center">
+  <img src="app/src/main/res/drawable/meal_ark_gif.gif" width="280" alt="Meal Arks App Showcase">
+</p>
+
 ## 📱 Features & Core Screens
 
 ### 1. ✨ Onboarding & Preference Profiler
