@@ -6,8 +6,9 @@
 
 ---
 
+## 📱 App Demo
 <p align="center">
-  <img src="./app/src/main/res/drawable/meal_ark_gif.gif" width="280" alt="Meal Arks App Showcase">
+  <img src="assets/meal_ark_demo.gif" width="320" alt="Meal Arks App Demo"/>
 </p>
 
 ## 📱 Features & Core Screens
@@ -247,10 +248,10 @@ Or open the root project in **Android Studio**, select `app` in the configuratio
 │           │   ├── domain/                        # Domain Layer
 │           │   │   ├── model/                     # Domain models (MealPlan, Dish, ShoppingItem, etc.)
 │           │   │   ├── repository/                # Repository interfaces
-│           │   │   └── usecase/                   # Business logic use cases (7 total)
+│           │   │   └── usecase/                   # Business logic use cases (20+ use cases)
 │           │   │
 │           │   ├── presentation/                  # Presentation Layer
-│           │   │   └── viewmodel/                 # 10+ ViewModels (Home, Auth, Dish, Planner, etc.)
+│           │   │   └── viewmodel/                 # 12 ViewModels (Home, Auth, Dish, Planner, etc.)
 │           │   │
 │           │   ├── ui/                            # Compose UI Screens
 │           │   │   ├── auth/                      # SignIn, SignUp, ForgotPassword, GoogleSignInHelper
